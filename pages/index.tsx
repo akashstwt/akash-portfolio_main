@@ -26,40 +26,40 @@ export default function Home() {
   const homeRef = useRef<HTMLDivElement>(null);
 
   // userData state that will be used to get usr location
-  const [userData, setUserData] = useState(null);
+  // const [userData, setUserData] = useState(null);
 
   // check if user from Black List
   const [isBlackListed, setIsBlackListed] = useState(false);
 
   // check if NEXT_PUBLC_BLACKLIST_COUNTRIES is empty
-  const [IsBlackListEmpty, setIsBlackListEmpty] = useState(
-    process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES === "" ? true : false
-  );
+  // const [IsBlackListEmpty, setIsBlackListEmpty] = useState(
+  //   process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES === "" ? true : false
+  // );
 
   // this userEffect will be called to get the user location, so we can check if he is from the blackList,
   // this will only run if NEXT_PUBLIC_BLACKLIST_COUNTRIES is not empty
-  useEffect(() => {
-    if (!IsBlackListEmpty) {
-      const fetchData = async () => {
-        try {
-          const IP_Address = async () => {
-            return fetch("https://api.ipify.org/?format=json")
-              .then(res => res.json())
-              .then(data => data.ip);
-          };
+  // useEffect(() => {
+  //   if (!IsBlackListEmpty) {
+  //     const fetchData = async () => {
+  //       try {
+  //         const IP_Address = async () => {
+  //           return fetch("https://api.ipify.org/?format=json")
+  //             .then(res => res.json())
+  //             .then(data => data.ip);
+  //         };
 
-          const response = await fetch("/api/userInfoByIP/" + (await IP_Address())); // Replace with your actual API endpoint
-          const data = await response.json();
-          setUserData(data);
-        } catch (error) {
-          console.error("Error fetching data location and ip address:", error);
-          // Handle errors as needed
-        }
-      };
+  //         const response = await fetch("/api/userInfoByIP/" + (await IP_Address())); // Replace with your actual API endpoint
+  //         const data = await response.json();
+  //         setUserData(data);
+  //       } catch (error) {
+  //         console.error("Error fetching data location and ip address:", error);
+  //         // Handle errors as needed
+  //       }
+  //     };
 
-      fetchData();
-    }
-  }, [IsBlackListEmpty]); // Empty dependency array ensures that this effect runs once when the component mounts
+  //     fetchData();
+  //   }
+  // }, [IsBlackListEmpty]); // Empty dependency array ensures that this effect runs once when the component mounts
 
   // this useEffect will be called when userData is set
   // useEffect(() => {
