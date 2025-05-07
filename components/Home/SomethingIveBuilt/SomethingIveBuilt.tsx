@@ -3,16 +3,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import ArrowIcon from "../../Icons/ArrowIcon";
 import Img from "../../smallComp/image/Img";
-import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 import ExternalLink from "../../Icons/ExternalLink";
 
-import ayurveda from "../../../public/projects/ayurveda.jpg"
-import casa from "../../../public/projects/CasaNirvana.png"
-import chainzoku from "../../../public/projects/Chainzoku.png"
-import engxlab from "../../../public/projects/Engxlab.png"
-import gitcode from "../../../public/projects/gitcode.png"
-import raavana from "../../../public/projects/raavana-live.jpg"
-import wov from "../../../public/projects/world-of-vibes.jpg"
 
 export default function SomethingIveBuilt() {
   const router = useRouter();
@@ -80,23 +72,21 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
-                  At <span className="text-AAsecondary">Vision</span>, I played a crucial role in developing web3
-                  components for their <span className="text-AAsecondary">web3 application</span> using Next.js and web3
-                  libraries. Our focus was on integrating new features and improving the user interface. One notable
-                  achievement was the release of NameWrapper with <span className="text-AAsecondary">ERC72</span>{" "}
-                  support, enabling users to create <span className="text-AAsecondary">subdomains</span>. This showcased
-                  our commitment to delivering innovative solutions.
+                It&apos;s an immersive <span className="text-AAsecondary"> Web3 gaming platform </span> featuring an attractive and highly 
+                <span className="text-AAsecondary"> responsive frontend </span> that delivers seamless gameplay experiences. 
+                Built with a focus on performance and user interaction, the platform integrates <span className="text-AAsecondary"> blockchain-based assets </span> 
+                and interactive UI components to elevate <span className="text-AAsecondary"> next-gen gaming </span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">ENS domains</span>
-                <span className="pr-4 z-10">ENS names</span>
-                <span className="pr-4 z-10">web3</span>
-                <span className="pr-4 z-10">NFT</span>
-                <span className="pr-4 z-10">ERC72</span>
+                <span className="pr-4 z-10">Typescript</span>
+                <span className="pr-4 z-10">Starknet</span>
+                <span className="pr-4 z-10">Arcade</span>
+                <span className="pr-4 z-10">Nft</span>
+                <span className="pr-4 z-10">web3 gaming</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 {/* <GithubIcon link="https://github.com/akashstwt/Ypredict" /> */}
@@ -162,23 +152,20 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to lead the development of a token project, which aimed to create a
-                  decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
-                  project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                  <span className="text-AAsecondary"> smart contract</span> and{" "}
-                  <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
-                  <span className="text-AAsecondary"> YPredict - v1 </span> for the private sale.
+                It&apos;s a modern <span className="text-AAsecondary"> digital solutions agency </span> that empowers businesses with cutting-edge 
+                <span className="text-AAsecondary"> Web3 products </span>, intelligent <span className="text-AAsecondary"> AI agents </span>, and scalable 
+                <span className="text-AAsecondary"> SaaS solutions </span>. Tailored for innovation-driven companies, the platform bridges 
+                <span className="text-AAsecondary"> next-gen technologies </span> with real-world impact through expert-driven development and seamless integration.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Token</span>
-                <span className="pr-4 z-10">ERC20</span>
-                <span className="pr-4 z-10">Nextjs</span>
-                <span className="pr-4 z-10">Smart contract</span>
-                <span className="pr-4 z-10">Blockchain</span>
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">Convex</span>
+                <span className="pr-4 z-10">Postgress</span>
+                <span className="pr-4 z-10">Typescript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
@@ -235,27 +222,27 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left">
-                  I played a key role in developing an NFT marketplace project, focused on creating a decentralized
-                  platform with scalable <span className="text-AAsecondary"> smart contracts</span> and{" "}
-                  <span className="text-AAsecondary"> blockchain technology</span>. This platform,{" "}
-                  <span className="text-AAsecondary"> FeverTokens - v2</span>, was showcased at the VivaTech2022 event
-                  in Paris, providing builders with tools to develop scalable Web3 applications.
+                It&apos;s a professional <span className="text-AAsecondary"> artist booking platform </span> 
+                designed for bands and performance groups, offering easy <span className="text-AAsecondary"> show scheduling </span>, 
+                <span className="text-AAsecondary"> event management </span>, and direct <span className="text-AAsecondary"> inquiries </span> 
+                from organizers. The site showcases their <span className="text-AAsecondary"> portfolio </span>, past 
+                <span className="text-AAsecondary"> performances </span>, and allows fans and clients to 
+                <span className="text-AAsecondary"> book shows </span> with just a few clicks.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Tokenization</span>
-                <span className="pr-4 z-10">ERC721</span>
-                <span className="pr-4 z-10">Solidity</span>
-                <span className="pr-4 z-10">Smart Contracts</span>
-                <span className="pr-4 z-10">Blockchain</span>
+                <span className="pr-4 z-10">Wordpress</span>
+                <span className="pr-4 z-10">Booking</span>
+                <span className="pr-4 z-10">UI/UX</span>
+                <span className="pr-4 z-10">Portfolio</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 {/* <GithubIcon link="https://github.com/akashstwt/Ypredict" /> */}
                 <a href="https://worldofvibes.com/" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
+                  <ExternalLink url={"https://worldofvibes.com/"} router={router} />
                 </a>
               </div>
             </div>
@@ -306,18 +293,19 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This project aim to help you to improve your <span className="text-AAsecondary"> typing </span> by
-                  tracking your progress in <span className="text-AAsecondary"> each round</span> and give you a{" "}
-                  <span className="text-AAsecondary"> score</span> based on your typing speed and accuracy through a
-                  table of <span className="text-AAsecondary"> statistics</span>.
+                It&apos;s an <span className="text-AAsecondary"> open source contribution </span> platform focused on the 
+                <span className="text-AAsecondary"> Web3 ecosystem </span>, enabling developers to discover, collaborate, and contribute to innovative 
+                <span className="text-AAsecondary"> decentralized projects </span>. The platform features curated 
+                <span className="text-AAsecondary"> issues </span>, <span className="text-AAsecondary"> bounties </span>, and seamless 
+                <span className="text-AAsecondary"> GitHub integration </span> to foster meaningful blockchain development.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Algorithms</span>
-                <span className="pr-4 z-10">Framer Motion</span>
+                <span className="pr-4 z-10">Github</span>
+                <span className="pr-4 z-10">Next.js</span>
                 <span className="pr-4 z-10">Tailwind CSS</span>
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
@@ -372,22 +360,20 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  This project allows you to understand how easy it is to identify and track your browser based on how
-                  it appears to websites. Such as your
-                  <span className="text-AAsecondary"> location</span>,{" "}
-                  <span className="text-AAsecondary">IP Address</span>,{" "}
-                  <span className="text-AAsecondary">{","} software, Hardware</span> and some additional information
-                  with the help of cookies.
+                It&apos;s a personal <span className="text-AAsecondary"> artist portfolio </span> designed to showcase unique 
+                <span className="text-AAsecondary"> artwork </span>, creative <span className="text-AAsecondary"> projects </span>, and professional 
+                <span className="text-AAsecondary"> exhibitions </span>. The site features an engaging <span className="text-AAsecondary"> gallery </span>, 
+                <span className="text-AAsecondary"> about section </span>, and <span className="text-AAsecondary"> contact form </span> 
+                to connect with potential clients and collaborators.
+
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Cookies</span>
-                <span className="pr-4 z-10">Google APi</span>
+                <span className="pr-4 z-10">WordPress</span>
                 <span className="pr-4 z-10">Data collecting</span>
-                <span className="pr-4 z-10">IP Address</span>
                 <span className="pr-4 z-10">Location</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
@@ -413,10 +399,6 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">In initiation...</span>
-              </div>
 
               <Img src={"/projects/CasaNirvana.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
@@ -449,11 +431,12 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  It&apos; a barber shop <span className="text-AAsecondary">appointment scheduling</span> & management
-                  software it provides <span className="text-AAsecondary">online scheduling</span>, appointment
-                  reminders, <span className="text-AAsecondary">payments</span>, marketing, and much more! Currently in
-                  the <span className="text-AAsecondary">Initiation phase</span>.
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-left">
+                It&apos;s a hotel <span className="text-AAsecondary"> portfolio website </span> 
+                that showcases elegant <span className="text-AAsecondary"> accommodation options </span>, immersive 
+                <span className="text-AAsecondary"> gallery experiences </span>, seamless 
+                <span className="text-AAsecondary"> inquiry forms </span>, <span className="text-AAsecondary"> location details </span>, and 
+                <span className="text-AAsecondary"> amenity highlights </span>. Currently in the <span className="text-AAsecondary"> Initiation phase </span>.
                 </p>
               </div>
               <ul
@@ -519,23 +502,23 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  A <span className="text-AAsecondary">JavaFX call center management system</span> project it is used
-                  for receiving or transmitting a large volume of enquiries between the agent and the customer,it
-                  handles the communication between agents & clients it can be used for the both side client & agent
-                  side to handle the messages and issues.
+                Ayur Fest is a comprehensive <span className="text-AAsecondary">Event Management system </span> 
+                designed to simplify and streamline how college events are discovered and attended. From cultural 
+                fests to academic seminars, students can explore upcoming events and book tickets directly through 
+                the platform, making participation seamless and exciting.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">JavaFX</span>
-                <span className="pr-4 z-10">Java Concurrency</span>
-                <span className="pr-4 z-10">MultiThreading</span>
+                <span className="pr-4 z-10">React.js</span>
+                <span className="pr-4 z-10">JavaScript</span>
+                <span className="pr-4 z-10">MongoDB</span>
                 <span className="pr-4 z-10">MySQL</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://puayurfest.in/" />
+                <ExternalLink url={"https://puayurfest.in/"} router={router} />
               </div>
             </div>
           </div>

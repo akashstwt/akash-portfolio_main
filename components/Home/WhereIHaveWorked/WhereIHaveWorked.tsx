@@ -1,14 +1,11 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import TrouveTavoie from "./Descriptions/TrouveTavoie";
 import FeverTokens from "./Descriptions/FeverTokens";
 import IdealFresh from "./Descriptions/IdealFresh";
-import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
 import Fantasia from "./Descriptions/Fantasia";
-import SuperBerry from "./Descriptions/SuperBerry";
 import EnsVision from "./Descriptions/EnsVision";
-import YpredictAI from "./Descriptions/YpredictAI";
+
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
@@ -17,20 +14,12 @@ export default function WhereIHaveWorked() {
     switch (DescriptionJob) {
       case "Vision":
         return <EnsVision />;
-      case "YpredictAI":
-        return <YpredictAI />;
-      case "TrouveTavoie":
-        return <TrouveTavoie />;
       case "FeverTokens":
         return <FeverTokens />;
       case "IdealFresh":
         return <IdealFresh />;
-      case "Advanced Agro Management":
-        return <AdvancedAgroManagement />;
       case "Fantasia":
         return <Fantasia />;
-      case "SuperBerry":
-        return <SuperBerry />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("Vision");

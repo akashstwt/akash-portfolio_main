@@ -32,10 +32,10 @@ export default function AboutMe(props) {
 
           <div className="font-Header text-justify">
             <span className="text-gray-400">
-              Hello! My name is Akash, and I&apos;m a passionate <span className="text-AAsecondary">Frontend Developer</span> 
-              and <span className="text-AAsecondary">Flutter Developer</span> with strong problem-solving skills.
+              Hello! My name is Akash, and I&apos;m a passionate <span className="text-AAsecondary"> Frontend Developer </span> 
+              and <span className="text-AAsecondary"> Flutter Developer </span> with strong problem-solving skills.
               My journey into programming began when I got inspired by the energy and creativity I saw at 
-              <span className="text-AAsecondary">hackathons</span>—watching people build and explore new 
+              <span className="text-AAsecondary"> hackathons </span>—watching people build and explore new 
               tech sparked my curiosity and love for development.Since then, I&apos;ve been focused on building sleek, interactive, 
               and high-performance digital experiences using modern frontend technologies and Flutter for mobile platforms.
             </span>
@@ -43,10 +43,10 @@ export default function AboutMe(props) {
 
           <div className="font-Header text-justify">
             <span className="text-gray-400">
-              I also have a solid foundation in <span className="text-AAsecondary">backend development</span>, which allows me to build 
-              complete solutions and collaborate effectively with cross-functional teams. I&apos;ve worked with companies like 
-              <span className="text-AAsecondary">Permissionless</span> and contributed to impactful projects across various domains, 
-              including international and transportation sectors. Currently, I&apos;m actively <span className="text-AAsecondary">exploring Web3 </span> 
+              I also have a basic foundation in <span className="text-AAsecondary"> backend development </span>, which allows me to build 
+               solutions and collaborate effectively with cross-functional teams. I&apos;ve worked with companies like 
+              <span className="text-AAsecondary"> Permissionless </span> and contributed to impactful projects across various domains. 
+              Currently, I&apos;m actively <span className="text-AAsecondary"> exploring Web3 </span> 
               and decentralized technologies to stay ahead in the ever-evolving tech space.
             </span>
           </div>

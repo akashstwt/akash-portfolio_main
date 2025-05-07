@@ -108,9 +108,9 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Akash Anaflous - Software Engineer",
+    title: "Akash Patel - Software Engineer",
     description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
-    image: "/titofCercle.png",
+    image: "/",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
