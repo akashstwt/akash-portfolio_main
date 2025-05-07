@@ -3,7 +3,7 @@ import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import GithubIcon from "../../Icons/GithubIcon";
 import LinkedinIcon from "../../Icons/LinkedinIcon";
 import InstagramIcon from "../../Icons/InstagramIcon";
-import YoutubeIcon from "../../Icons/YoutubeIcon";
+import TwitterIcon from "../../Icons/TwitterIcon";
 
 const IconClickableWithAnimation = props => {
   return (
@@ -32,13 +32,14 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         <div className="flex flex-col space-y-8 justify-center items-center">
           <div className="flex flex-col justify-center items-center space-y-5">
             {/* Github Icon */}
-            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/hktitof"} />
+            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/akashstwt"} />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/Akash-anaflous/"} />
+            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/akash-patel-a20254235/"} />
             {/* Instagram Icon */}
-            <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} />
+            <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/akash_patel_1153/"} />
             {/* Youtube Icon */}
-            {/* <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://www.youtube.com/@Akash_anaflous"} /> */}
+            <IconClickableWithAnimation Icon={TwitterIcon} href={"https://x.com/Akashstwt05"} />
+            
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>

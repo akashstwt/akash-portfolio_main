@@ -99,7 +99,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">ERC72</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
+                {/* <GithubIcon link="https://github.com/akashstwt/Ypredict" /> */}
                 <a href="https://chain-zoku.vercel.app/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
@@ -117,7 +117,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              {/* <Link href={"/typing"}>
+              {/* <Link href={"https://worldofvibes.com/"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -125,7 +125,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link> */}
 
-              <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
+              <a href="https://engx-lab.vercel.app/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -133,7 +133,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img src={"/img/YPredict-v1.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/Engxlab.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -144,7 +144,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/img/YPredict-v1.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/Engxlab.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -154,9 +154,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://engx-lab.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    YPredict - v1
+                    EngxLab
                   </span>
                 </a>
               </div>
@@ -182,8 +182,8 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
-                  <GithubIcon link="https://github.com/hktitof/Ypredict" />
-                  <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
+                  {/* <GithubIcon link="https://github.com/" /> */}
+                  <a href="https://engx-lab.vercel.app/" target={"_blank"} rel="noreferrer">
                     <ExternalLink url={""} router={router} />
                   </a>
                 </div>
@@ -200,13 +200,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://www.fevertokens.io/"} target="_blank" rel="noreferrer">
+              <a href={"https://worldofvibes.com/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/img/feverTokens.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/world-of-vibes.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -217,7 +217,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/feverTokens.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/world-of-vibes.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -227,9 +227,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://www.fevertokens.io/" target="_blank" rel="noopener noreferrer">
+                <a href="https://worldofvibes.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    FeverTokens
+                    World of Vibes
                   </span>
                 </a>
               </div>
@@ -253,8 +253,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Blockchain</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
-                <a href="https://www.fevertokens.io/" target={"_blank"} rel="noreferrer">
+                {/* <GithubIcon link="https://github.com/akashstwt/Ypredict" /> */}
+                <a href="https://worldofvibes.com/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -269,7 +269,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"/typing"}>
+              <Link href={"https://www.thegitcode.com/"}>
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -277,7 +277,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </Link>
 
-              <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/gitcode.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -288,7 +288,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/typing.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/gitcode.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
@@ -298,9 +298,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/typing"}>
+                <Link href={"https://www.thegitcode.com/"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Speed Typing
+                    Gitcode
                   </span>
                 </Link>
               </div>
@@ -322,8 +322,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Typing" />
-                <ExternalLink url={"typing"} router={router} />
+                {/* <GithubIcon link="https://github.com/akashstwthttps://worldofvibes.com/" /> */}
+                <ExternalLink url={"https://www.thegitcode.com/"} router={router} />
               </div>
             </div>
           </div>
@@ -337,13 +337,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"/userdatapuller"}>
+              <Link href={"https://raavanalive.in/"}>
                 <div
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
-              <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/raavana-live.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -354,7 +354,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/raavana-live.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -364,9 +364,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <Link href={"/userdatapuller"}>
+                <Link href={"https://raavanalive.in/"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    User Data puller
+                    Raavana Live
                   </span>
                 </Link>
               </div>
@@ -391,8 +391,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Location</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/DataPuller" />
-                <ExternalLink url={"/userdatapuller"} router={router} />
+                {/* <GithubIcon link="https://github.com/akashstwt/DataPuller" /> */}
+                <ExternalLink url={"https://raavanalive.in/"} router={router} />
               </div>
             </div>
           </div>
@@ -406,7 +406,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+              <a href="https://casanirvana.in/" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
@@ -418,7 +418,7 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-xl">In initiation...</span>
               </div>
 
-              <Img src={"/haircut.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/CasaNirvana.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -429,12 +429,12 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/haircut.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/projects/CasaNirvana.png"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
             <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
               <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In initiation...</span>
+              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded"></span>
             </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
@@ -442,9 +442,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+                <a href="https://casanirvana.in/" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Haircut Appointment
+                    Casa Nirvana
                   </span>
                 </a>
               </div>
@@ -466,9 +466,9 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Booking</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/haircut" />
-                <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
+                {/* <GithubIcon link="https://github.com/akashstwt/haircut" /> */}
+                <a href="https://casanirvana.in/" target={"_blank"} rel="noreferrer">
+                  <ExternalLink url={"https://casanirvana.in/"} router={router} />
                 </a>
               </div>
             </div>
@@ -483,14 +483,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
+              <a href="https://puayurfest.in/" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <Img src={"/CallCenter.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/projects/ayurveda.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -501,7 +501,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAprimary opacity-50 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/CallCenter.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/projects/ayurveda.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -511,9 +511,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
+                <a href="https://puayurfest.in/" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Call Center Management System
+                    Ayur Fest
                   </span>
                 </a>
               </div>
@@ -535,7 +535,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">MySQL</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/CallCenter" />
+                <GithubIcon link="https://puayurfest.in/" />
               </div>
             </div>
           </div>

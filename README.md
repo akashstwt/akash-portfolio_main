@@ -78,7 +78,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [an
 1. Clone the repo CLI
 
    ```sh
-   git clone https://github.com/hktitof/my-website.git
+   git clone https://github.com/akashstwt/my-website.git
    ```
 
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
@@ -229,7 +229,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@Akash-anaflous](https://www.linkedin.com/in/Akash-anaflous/)
+- Linkedin - [@Akash-anaflous](https://www.linkedin.com/in/akash-patel-a20254235/)
 - Website - [Akash Anaflous](https://anaflous.com)
 
 [Back To The Top](#description) :

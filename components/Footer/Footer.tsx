@@ -11,10 +11,10 @@ const ClickableIcon = props => {
   );
 };
 const IconsData = [
-  { href: "https://github.com/hktitof", Icon: GithubIcon },
-  { href: "https://www.linkedin.com/in/Akash-anaflous/", Icon: LinkedinIcon },
-  { href: "https://www.instagram.com/titof_abdo/", Icon: InstagramIcon },
-  { href: "https://www.youtube.com/@Akash_anaflous", Icon: YoutubeIcon },
+  { href: "https://github.com/akashstwt", Icon: GithubIcon },
+  { href: "https://www.linkedin.com/in/akash-patel-a20254235/", Icon: LinkedinIcon },
+  { href: "https://www.instagram.com/akash_patel_1153/", Icon: InstagramIcon },
+  { href: "https://x.com/Akashstwt05", Icon: YoutubeIcon },
 ];
 
 export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
