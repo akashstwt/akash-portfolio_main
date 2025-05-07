@@ -33,7 +33,7 @@ export default function AboutMe(props) {
           <div className="font-Header text-justify">
             <span className="text-gray-400">
               Hello! My name is Akash, and I&apos;m a passionate <span className="text-AAsecondary"> Frontend Developer </span> 
-              and <span className="text-AAsecondary"> Flutter Developer </span> with strong problem-solving skills.
+              and also have experience in <span className="text-AAsecondary"> Flutter Development </span> with strong problem-solving skills.
               My journey into programming began when I got inspired by the energy and creativity I saw at 
               <span className="text-AAsecondary"> hackathons </span>—watching people build and explore new 
               tech sparked my curiosity and love for development.Since then, I&apos;ve been focused on building sleek, interactive, 
