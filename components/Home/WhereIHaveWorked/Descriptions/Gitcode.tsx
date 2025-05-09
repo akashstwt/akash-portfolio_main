@@ -1,21 +1,23 @@
 import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function FeverTokens() {
+
+export default function Gitcode() {
   const tasks = [
     {
-      text: "Managed the development of NFT Marketplace v2 for the FeverTokens platform, ensuring high-quality deliverables and successful project execution.",
-      keywords: ["NFT Marketplace v2", "project management", "high-quality deliverables"],
+      text: "Full-stack development of a Web3 open-source contribution platform, ensuring scalability, security, and seamless user experience.",
+      keywords: ["full-stack development", "Web3", "open-source", "scalability", "security", "user experience"],
     },
     {
-      text: "Collaborated with a team of six developers to build a temporary NFT Marketplace for the VivaTech2022 event in Paris, utilizing Next.js, Ether.js, Tailwind CSS, AWS Lambda, and Hardhat.",
-      keywords: ["VivaTech2022", "Next.js", "Ether.js", "Tailwind CSS", "AWS Lambda", "Hardhat"],
+      text: "Worked with a cross-functional team to implement smart contract interactions, using Next.js, Tailwind CSS, Node.js, Ethers.js, and PostgreSQL.",
+      keywords: ["smart contracts", "Next.js", "Tailwind CSS", "Node.js", "Ethers.js", "PostgreSQL"],
     },
     {
-      text: "Interacted with blockchain and smart contracts to build and enhance the FeverTokens platform, achieving recognition from Binance and securing a one-million-dollar investment.",
-      keywords: ["blockchain", "smart contracts", "Binance", "investment", "platform development"],
+      text: "Built API routes, on-chain/off-chain data integrations, and contributed to CI/CD pipelines for continuous delivery and testing.",
+      keywords: ["API routes", "on-chain data", "off-chain data", "CI/CD", "integration", "testing"],
     },
   ];
+
 
   return (
     <>
@@ -23,17 +25,17 @@ export default function FeverTokens() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Lead Full Stack Engineer <span className="text-AAsecondary">@ web3</span>
+          Full Stack Devloper <span className="text-AAsecondary">@ web3</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Jan - Sept 2022</span>
+          <span className="font-mono text-xs text-gray-500">Aug - Nov 2024</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            onClick={() => window.open("https:///www.fevertokens.io", "_blank")}
+            onClick={() => window.open("https://www.thegitcode.com/", "_blank")}
           >
-            www.fevertokens.io
+            www.thegitcode.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
