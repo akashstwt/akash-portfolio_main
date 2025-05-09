@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import Permissionless from "./Descriptions/Permissionless";
-import Gitcode from "./Descriptions/Gitcode";
-import EngxLab from "./Descriptions/EngxLab";
+import FeverTokens from "./Descriptions/Permissionless";
+import EnsVision from "./Descriptions/EngxLab";
+import Fantasia from "./Descriptions/Gitcode";
 
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
@@ -11,12 +11,12 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "EngxLab":
-        return <EngxLab />;
-      case "Permissionless":
-        return <Permissionless />;
-      case "Gitcode":
-        return <Gitcode />;
+      case "Vision":
+        return <EnsVision />;
+      case "FeverTokens":
+        return <FeverTokens />;
+      case "Fantasia":
+        return <Fantasia />;  
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("Vision");
@@ -49,10 +49,15 @@ export default function WhereIHaveWorked() {
 }
 
 const CompaniesBar = props => {
-  const [barPosition, setBarPosition] = React.useState<Number>(-20); // Green bar position by the default it's -20px
+  const [barPosition, setBarPosition] = React.useState<Number>(-8); // Green bar position by the default it's -20px
   const [barAbovePosition, setBarAbovePosition] = React.useState<Number>(0);
   const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] = React.useState<boolean[]>([
     true,
+    false,
+    false,
+    false,
+    false,
+    false,
     false,
     false,
   ]);
@@ -100,32 +105,32 @@ const CompaniesBar = props => {
       </div>
       {/* // ? Companies name as buttons */}
       <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
-        <div className="flex flex-row md:flex-col">
+<div className="flex flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="EngxLab"
             BarPosition={-10}
             BarAvobePosition={1}
-            DescriptionJob="EngxLab"
-            CompanyNameBackgroundColorGreen={[true, false, false]}
+            DescriptionJob="Vision"
+            CompanyNameBackgroundColorGreen={[true, false, false, false, false, false,false,false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="Permissionless"
-            BarPosition={148}
+            BarPosition={150}
             BarAvobePosition={385}
-            DescriptionJob="Permissionless"
-            CompanyNameBackgroundColorGreen={[false,true, false, ]}
+            DescriptionJob="FeverTokens"
+            CompanyNameBackgroundColorGreen={[false, false, false, true, false, false,false,false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={4}
+            ButtonOrderOfcompanyNameBackgroundColorGreen={7}
             CompanyName="Gitcode"
-            BarPosition={300}
-            BarAvobePosition={513}
-            DescriptionJob="Gitcode"
-            CompanyNameBackgroundColorGreen={[ false, false, true]}
+            BarPosition={302}
+            BarAvobePosition={897}
+            DescriptionJob="Fantasia"
+            CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, false,true]}
             setDescriptionJob={props.setDescriptionJob}
           />
         </div>
