@@ -68,18 +68,12 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider "
       >
-        I&apos;m a <span className="text-AAsecondary">Frontend Developer</span> passionate about building sleek and high-performance digital experiences.
-        <br className="3xl:block hidden" /> I specialize in crafting responsive and user-friendly web interfaces using modern technologies,
-        with a strong focus on <span className="text-AAsecondary">UI/UX</span> and performance.
-        <br className="3xl:block hidden" /> Alongside web development, I&apos;m also an experienced <span className="text-AAsecondary">Flutter Developer</span>,
-        building cross-platform mobile apps that are fast, interactive, and visually engaging.
-        <br className="3xl:block hidden" /> With a basic understanding of <span className="text-AAsecondary">backend development</span>, 
-        I effectively bridge the gap between design and functionality.
-        <br className="3xl:block hidden" /> I thrive on solving complex challenges and collaborating with teams to turn ideas into
-        <span className="text-AAsecondary"> real-world solutions</span>.
-        <br className="3xl:block hidden" /> I&apos;m excited to contribute to impactful projects that drive innovation and push the boundaries of what technology can do.
-
-        technology.
+  I&apos;m a <span className="text-AAsecondary">Full Stack Developer</span> passionate about building robust, scalable, and high-performance digital solutions across the web.
+  <br className="3xl:block hidden" /> I specialize in designing and developing end-to-end applications, seamlessly integrating <span className="text-AAsecondary">Frontend</span> and <span className="text-AAsecondary">Backend</span> technologies to deliver complete products.
+  <br className="3xl:block hidden" /> My expertise includes crafting responsive, user-friendly interfaces with a strong focus on <span className="text-AAsecondary">UI/UX</span> and performance, as well as architecting efficient backend systems.
+  <br className="3xl:block hidden" /> As a secondary focus, I&apos;m also a <span className="text-AAsecondary">Flutter Developer</span>, building cross-platform mobile apps that are fast, interactive, and visually engaging.
+  <br className="3xl:block hidden" /> I thrive on solving complex challenges, collaborating with teams, and turning ideas into <span className="text-AAsecondary">real-world solutions</span>.
+  <br className="3xl:block hidden" /> I&apos;m excited to contribute to impactful projects that drive innovation and push the boundaries of what technology can do.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

@@ -4,6 +4,8 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import FeverTokens from "./Descriptions/Permissionless";
 import EnsVision from "./Descriptions/EngxLab";
 import Fantasia from "./Descriptions/Gitcode";
+// New job description import
+import VayuxiERP from "./Descriptions/VayuxiERP";
 
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
@@ -16,7 +18,9 @@ export default function WhereIHaveWorked() {
       case "FeverTokens":
         return <FeverTokens />;
       case "Fantasia":
-        return <Fantasia />;  
+        return <Fantasia />;
+      case "VayuxiERP":
+        return <VayuxiERP />;
     }
   };
   const [DescriptionJob, setDescriptionJob] = React.useState("Vision");
@@ -52,14 +56,15 @@ const CompaniesBar = props => {
   const [barPosition, setBarPosition] = React.useState<Number>(-8); // Green bar position by the default it's -20px
   const [barAbovePosition, setBarAbovePosition] = React.useState<Number>(0);
   const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] = React.useState<boolean[]>([
-    true,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
+    true, // EngxLab
+    false, // (unused)
+    false, // (unused)
+    false, // Permissionless
+    false, // (unused)
+    false, // (unused)
+    false, // (unused)
+    false, // Gitcode
+    false, // VayuxiERP
   ]);
   const CompanyButton = props => {
     return (
@@ -105,14 +110,14 @@ const CompaniesBar = props => {
       </div>
       {/* // ? Companies name as buttons */}
       <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
-<div className="flex flex-row md:flex-col">
+        <div className="flex flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="EngxLab"
             BarPosition={-10}
             BarAvobePosition={1}
             DescriptionJob="Vision"
-            CompanyNameBackgroundColorGreen={[true, false, false, false, false, false,false,false]}
+            CompanyNameBackgroundColorGreen={[true, false, false, false, false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
@@ -121,7 +126,7 @@ const CompaniesBar = props => {
             BarPosition={150}
             BarAvobePosition={385}
             DescriptionJob="FeverTokens"
-            CompanyNameBackgroundColorGreen={[false, false, false, true, false, false,false,false]}
+            CompanyNameBackgroundColorGreen={[false, false, false, true, false, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
@@ -130,7 +135,16 @@ const CompaniesBar = props => {
             BarPosition={302}
             BarAvobePosition={897}
             DescriptionJob="Fantasia"
-            CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, false,true]}
+            CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, false, true, false]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+          <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={8}
+            CompanyName="Vayuxi ERP Pvt Ltd"
+            BarPosition={450}
+            BarAvobePosition={1200}
+            DescriptionJob="VayuxiERP"
+            CompanyNameBackgroundColorGreen={[false, false, false, false, false, false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
         </div>

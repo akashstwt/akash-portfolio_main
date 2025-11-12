@@ -32,22 +32,17 @@ export default function AboutMe(props) {
 
           <div className="font-Header text-justify">
             <span className="text-gray-400">
-              Hello! My name is Akash, and I&apos;m a passionate <span className="text-AAsecondary"> Frontend Developer </span> 
-              and also have experience in <span className="text-AAsecondary"> Flutter Development </span> with strong problem-solving skills.
+              Hello! My name is Akash, and I&apos;m a passionate <span className="text-AAsecondary"> Full Stack Developer </span> 
+              and <span className="text-AAsecondary"> Flutter Developer </span> with strong problem-solving skills.
               My journey into programming began when I got inspired by the energy and creativity I saw at 
               <span className="text-AAsecondary"> hackathons </span>—watching people build and explore new 
-              tech sparked my curiosity and love for development.Since then, I&apos;ve been focused on building sleek, interactive, 
-              and high-performance digital experiences using modern frontend technologies and Flutter for mobile platforms.
+              tech sparked my curiosity and love for development. Since then, I&apos;ve been dedicated to building robust, scalable, and high-performance digital solutions across the stack, using modern frontend and backend technologies, as well as Flutter for mobile platforms.
             </span>
           </div>
 
           <div className="font-Header text-justify">
             <span className="text-gray-400">
-              I also have a basic foundation in <span className="text-AAsecondary"> backend development </span>, which allows me to build 
-               solutions and collaborate effectively with cross-functional teams. I&apos;ve worked with companies like 
-              <span className="text-AAsecondary"> Permissionless </span> and contributed to impactful projects across various domains. 
-              Currently, I&apos;m actively <span className="text-AAsecondary"> exploring Web3 </span> 
-              and decentralized technologies to stay ahead in the ever-evolving tech space.
+              As a full stack developer, I have hands-on experience with both <span className="text-AAsecondary"> frontend </span> and <span className="text-AAsecondary"> backend development </span>, enabling me to design, develop, and deploy end-to-end solutions. I&apos;ve worked with companies like <span className="text-AAsecondary"> Permissionless, Vayuxi </span> and contributed to impactful projects across various domains. Currently, I&apos;m actively <span className="text-AAsecondary"> exploring Web3 </span> and decentralized technologies to stay ahead in the ever-evolving tech space.
             </span>
           </div>
 
